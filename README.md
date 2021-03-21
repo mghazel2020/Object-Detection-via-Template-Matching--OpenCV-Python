@@ -43,6 +43,20 @@ enum  	cv::TemplateMatchModes {
  	type of the template matching operation More...
 ```
 
+### 3.1.1 Sample Results
+
+<div class="row">
+  <div class="column">
+    <img src="figures/stanford_template_matching_results.JPG" width="500">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="figures/stanford_template_matching_results.JPG" width="500">
+  </div>
+</div>
+
 
 
 Pixel-based template matching techniques are generally less sensitive to noise and illumination effects in the images.
