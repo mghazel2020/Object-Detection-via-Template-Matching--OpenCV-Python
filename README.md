@@ -19,7 +19,7 @@ More specifically, the objective of template matching is to locate an object, de
 
 <div class="row">
   <div class="column">
-    <img src="figures/template_matching.jpg" width="500">
+    <img src="figures/stanford_template_matching.jpg" width="500">
   </div>
 </div>
 
@@ -42,6 +42,13 @@ enum  	cv::TemplateMatchModes {
 }
  	type of the template matching operation More...
 ```
+The normaizled cross-correlation heat-map between the template and reference images illustrated in the fogure below. Note that higher cross-correlation sub-regions (windows) are associated with the correct location of the template image (window) in the reference image. 
+<div class="row">
+  <div class="column">
+    <img src="figures/stanford_template_matching_cc.jpg" width="500">
+  </div>
+</div>
+
 
 ### 3.1.1 Sample Results
 
