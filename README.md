@@ -45,7 +45,7 @@ enum  	cv::TemplateMatchModes {
 The normaizled cross-correlation heat-map between the template and reference images illustrated in the fogure below. Note that higher cross-correlation sub-regions (windows) are associated with the correct location of the template image (window) in the reference image. 
 <div class="row">
   <div class="column">
-    <img src="figures/stanford_template_matching_cc.jpg" width="500">
+    <img src="figures/stanford_template_matching_cc.jpg" width="800">
   </div>
 </div>
 
