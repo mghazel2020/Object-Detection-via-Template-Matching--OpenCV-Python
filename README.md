@@ -52,6 +52,10 @@ enum  	cv::TemplateMatchModes {
     <td> Template Matching Results</td>
   </tr> 
   <tr>
+    <td> <img src="figures/pillar.jpg" width="50"  > </td>
+    <td> <img src="figures/stanford_template_matching_results.JPG" width="500"></td>
+  </tr>
+  <tr>
     <td> <img src="figures/right_kitten.jpg" width="25"  > </td>
     <td> <img src="figures/cats_template_matching_results.JPG" width="100"></td>
   </tr>
@@ -59,30 +63,7 @@ enum  	cv::TemplateMatchModes {
     <td> <img src="figures/messi.jpg" width="50"  > </td>
     <td> <img src="figures/barcelona_messi_template_matching_results.JPG" width="500"></td>
   </tr>
-  <tr>
-    <td> <img src="figures/pillar.jpg" width="50"  > </td>
-    <td> <img src="figures/stanford_template_matching_results.JPG" width="500"></td>
-  </tr>
 </table>
-
-
-
-
-<div class="row">
-  <div class="column">
-    <img src="figures/stanford_template_matching_results.JPG" width="500">
-  </div>
-</div>
-
-<div class="row">
-  <div class="column">
-    <img src="figures/stanford_template_matching_results.JPG" width="500">
-  </div>
-  <div class="column">
-    <img src="figures/stanford_template_matching_results.JPG" width="500">
-  </div>
-</div>
-
 
 
 Pixel-based template matching techniques are generally less sensitive to noise and illumination effects in the images.
