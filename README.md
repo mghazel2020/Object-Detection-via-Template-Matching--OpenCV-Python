@@ -63,8 +63,8 @@ The normaizled cross-correlation heat-map between the template and reference ima
     <td> <img src="figures/stanford_template_matching_results.JPG" width="500"></td>
   </tr>
   <tr>
-    <td> <img src="figures/right_kitten.jpg" width="25"  > </td>
-    <td> <img src="figures/cats_template_matching_results.JPG" width="100"></td>
+    <td> <img src="figures/right_kitten.jpg" width="50"  > </td>
+    <td> <img src="figures/cats_template_matching_results.JPG" width="200"></td>
   </tr>
   <tr>
     <td> <img src="figures/messi.jpg" width="50"  > </td>
