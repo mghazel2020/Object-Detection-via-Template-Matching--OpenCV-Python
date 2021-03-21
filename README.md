@@ -15,7 +15,15 @@ Most pixel-based object detection techniques are based on matching a known templ
 
 Fixed templates are useful when object shapes do not change with respect to the viewing angle of the camera. Most fixed-template matching approach are based on computing the cross-correlation between the template and target images and detecting any peaks in the correlation values. In particular, these techniques apply a sliding window over all the pixels in order to detect the position of cross-similarity metric peak value between a template and a target image and locate the best match, if the template image is present in the target image. The absence of such a peak indicates that the template image is likely not in the target image. 
 
-More specifically, the objective of template matching is to locate an object, described by a template T[x,y], in the image I[x,y]. The cross-similarity between the target image T and the reference image I can be assessed based in several suitable mtrics:
+More specifically, the objective of template matching is to locate an object, described by a template T[x,y], in the image I[x,y]. 
+
+<div class="row">
+  <div class="column">
+    <img src="figures/template_matching.jpg" width="500">
+  </div>
+</div>
+
+The cross-similarity between the target image T and the reference image I can be assessed based in several suitable mtrics:
 
 * Mean squared error with or without normalization
 * Cross correlation with or without normalization
