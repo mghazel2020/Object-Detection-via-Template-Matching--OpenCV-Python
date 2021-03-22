@@ -77,7 +77,7 @@ enum  	cv::TemplateMatchModes {
     <td> <img src="figures/stanford_template_matching_results.JPG" width="500"></td>
   </tr>
   <tr>
-    <td> Right Kiitten </td>
+    <td> Right Kitten </td>
     <td> <img src="figures/right_kitten.jpg" width="50"  > </td>
     <td> <img src="figures/cats_template_matching_results.JPG" width="200"></td>
   </tr>
