@@ -9,7 +9,7 @@ To demonstrate object localization via template matching using OpenCV-Python bui
 |#                 | File name         |  Description 
 |------------------|-------------------|--------------------|
 |1                 | /code/Object-Recognition-Static-Template-Matching-OpenCV-Python.ipynb      |OpenCV-Python-API implementation of the functionalities for the object recognition from images using static template matching.  |
-|1                 | /code/Object-Recognition-Adaptive-Template-Matching-OpenCV-Python.ipynb      |OpenCV-Python-API implementation of the functionalities for the object recognition from videos using adaptive template matching.  |
+|2                 | /code/Object-Recognition-Adaptive-Template-Matching-OpenCV-Python.ipynb      |OpenCV-Python-API implementation of the functionalities for the object recognition from videos using adaptive template matching.  |
 
 
 ## 3. Template Matching
