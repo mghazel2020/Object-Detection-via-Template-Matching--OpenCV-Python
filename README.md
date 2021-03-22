@@ -6,6 +6,14 @@ To demonstrate object localization via template matching using OpenCV-Python bui
 
 ## 2. Code
 
+## 1. Submitted Code
+
+|#                 | File name         |  Description 
+|------------------|-------------------|--------------------|
+|1                 | /code/Object-Recognition-Static-Template-Matching-OpenCV-Python.ipynb      |OpenCV-Python-API implementation of the functionalities for the object recognition from images using static template matching.  |
+|1                 | /code/Object-Recognition-Adaptive-Template-Matching-OpenCV-Python.ipynb      |OpenCV-Python-API implementation of the functionalities for the object recognition from videos using adaptive template matching.  |
+
+
 ## 3. Template Matching
 
 Most pixel-based object detection techniques are based on matching a known template within the target image. Thus, if a template describing a specific object is available, object detection becomes a process of matching features between the template and the image sequence under analysis. There are two types of object template matching, fixed and deformable template matching. Given that our objects of interest are rigid, we shall focus on fixed template matching.
