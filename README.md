@@ -42,7 +42,14 @@ enum  	cv::TemplateMatchModes {
 }
  	type of the template matching operation More...
 ```
-The normaizled cross-correlation heat-map between the template and reference images illustrated in the fogure below. Note that higher cross-correlation sub-regions (windows) are associated with the correct location of the template image (window) in the reference image. 
+
+### 3.1.1 Exploring the Different Smiliarity Metrics
+
+* TBD: 
+
+  * Explore the differnt similarity metrics used for template matching
+  * The normalized cross-correlation heat-map between the template and reference images illustrated in the fogure below. Note that higher cross-correlation sub-regions (windows) are associated with the correct location of the template image (window) in the reference image. 
+
 <div class="row">
   <div class="column">
     <img src="figures/stanford_template_matching_cc.jpg" width="800">
@@ -50,7 +57,7 @@ The normaizled cross-correlation heat-map between the template and reference ima
 </div>
 
 
-### 3.1.1 Sample Results
+### 3.1.2 Sample Results - Nomalized Cross-Correlation
 
 
 <table>
@@ -73,18 +80,20 @@ The normaizled cross-correlation heat-map between the template and reference ima
 </table>
 
 
-Pixel-based template matching techniques are generally less sensitive to noise and illumination effects in the images.
-
-
-### 3.1 Deformable Template Matching
-
-Fixed templates are useful when object shapes do not change with respect to the viewing angle of the camera. Most fixed-template matching approach are based on computing the cross-correlation between the template and target images and detecting any peaks in the correlation values. In particular, these techniques apply a sliding window over all the pixels in order to detect the position of the normalized cross-correlation peak between a template and a target image and locate the best match, if the template image is present in the target image. The absence of such cross-correlation peak indicates that the template image is likely not in the target image. Pixel-based template matching techniques are generally less sensitive to noise and illumination effects in the images.
-
-
-### 3.2 Limitations
+### 3.1.3 Limitations
 
 The limitations of pixel-based object detection approaches are very similar to those of pixel-based image stitching techniques. As such they tend to be computationally expensive as they process all image pixels, they are also sensitive to changes in illumination, scale and orientation. Furthermore, pixel-based template matching is sensitive to occlusion, as the object needs to be fully visible in the scene image to be detected. These techniques are more suitable for restricted environments where imaging conditions, such as image intensity and viewing angles between the template and images containing this template are the same. However, recently pixel-based template-matching techniques, which are less sensitive to variations in orientation, scale, translation, brightness and contrast have been proposed with some reported success.
 
 
+### 3.1 Deformable Template Matching
+
+* TBD: 
+
+* Template matching from videoL
+  * Adaptively update the template image
+  * Try the video I found on Youtube
+
 ### 4 Conclusions
+
+* TBD: 
 
