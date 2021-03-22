@@ -6,8 +6,6 @@ To demonstrate object localization via template matching using OpenCV-Python bui
 
 ## 2. Code
 
-## 1. Submitted Code
-
 |#                 | File name         |  Description 
 |------------------|-------------------|--------------------|
 |1                 | /code/Object-Recognition-Static-Template-Matching-OpenCV-Python.ipynb      |OpenCV-Python-API implementation of the functionalities for the object recognition from images using static template matching.  |
