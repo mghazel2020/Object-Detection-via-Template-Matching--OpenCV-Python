@@ -10,7 +10,7 @@
 
 The objective of this project is to demonstrate object localization via template matching using OpenCV-Python built-in functionalities. 
 
-2. Template Matching
+## 2. Template Matching
 
 Template matching is a technique for finding areas of an image that are similar to the template of an object of interest, such as a person, vehicle, animal, etc. The goal of template matching is to detect and localize the template image (T) in a source image S:
 
@@ -23,7 +23,7 @@ Template matching is useful when the shape, orientation and scale of the object 
 
 
 
-2.1 Methodology
+### 2.1 Methodology
 
 
 
@@ -34,7 +34,7 @@ The applied template matching process can be outlined as follows:
 * The result obtained is compared with the threshold
 * If the result is greater than threshold, the portion will be marked as detected.
 
-2.2 OpenCV Python API
+### 2.2 OpenCV Python API
 
 
 The OpenCV Python API for the template matching functionality is as follows:
@@ -60,7 +60,7 @@ The Parameters are as follows:
 
 * result: Map of comparison results. It must be single-channel 32-bit floating-point. If image is W×H  and template is w×h, then result is (W−w+1)×(H−h+1)
 
-3. Data
+## 3. Data
 
 The template and source images used to demonstrate the template matching development process are illustrated next.
 
