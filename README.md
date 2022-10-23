@@ -109,17 +109,17 @@ We explored the differnt similarity metrics used for template matching:
   <tr>
     <td> Window </td>
     <td> <img src="figures/pillar.jpg" width="50"  > </td>
-    <td> <img src="figures/stanford_template_matching_results.JPG" width="500"></td>
+    <td> <p align="center"><img src="figures/stanford_template_matching_results.JPG" width="500"></p>/td>
   </tr>
   <tr>
     <td> Right Kitten </td>
     <td> <img src="figures/right_kitten.jpg" width="50"  > </td>
-    <td> <img src="figures/cats_template_matching_results.JPG" width="200"></td>
+    <td> <p align="center"><img src="figures/cats_template_matching_results.JPG" width="200"></p></td>
   </tr>
   <tr>
     <td> Messi </td>
     <td> <img src="figures/messi.jpg" width="50"  > </td>
-    <td> <img src="figures/barcelona_messi_template_matching_results.JPG" width="500"></td>
+    <td> <p align="center"><img src="figures/barcelona_messi_template_matching_results.JPG" width="500"></p></td>
   </tr>
 </table>
 
