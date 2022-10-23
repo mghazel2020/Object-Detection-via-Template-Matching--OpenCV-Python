@@ -14,18 +14,12 @@ The objective of this project is to demonstrate object localization via template
 
 Template matching is a technique for finding areas of an image that are similar to the template of an object of interest, such as a person, vehicle, animal, etc. The goal of template matching is to detect and localize the template image (T) in a source image S:
 
-
 * The source Image (S), which is the image where the template may be localized
 * The template Image (T), which is the image that is to be found in the source image.
 
-
 Template matching is useful when the shape, orientation and scale of the object of interest in the new imaged scene rains almost the same as what is captured in its template image. Most fixed-template matching approach are based on computing a cross-similarity metric between the template and target images and detecting any peaks in the metric values. In particular, template matching apply a sliding window over all the pixels in the source image order to detect the position of cross-similarity metric peak value between a template and template-size patches of target image, at each of its pixels, and locate the best match, if the template image is present in the target image. The absence of such a significant peak indicates that the template image is likely not present in the target image.
 
-
-
 ### 2.1 Methodology
-
-
 
 The applied template matching process can be outlined as follows:
 
@@ -36,10 +30,10 @@ The applied template matching process can be outlined as follows:
 
 ### 2.2 OpenCV Python API
 
-
 The OpenCV Python API for the template matching functionality is as follows:
-
+```
 result=cv.matchTemplate(image, templ, method[, result[, mask]]) 
+```
 
 The Parameters are as follows:
 
@@ -77,7 +71,7 @@ The cross-similarity between the target image T and the reference image I can be
 * Mean squared error with or without normalization
 * Cross correlation with or without normalization
 
-OpenCv offers the following 6 template matching modes:
+OpenCV offers the following 6 template matching modes:
 
 ```
 Enumerations
