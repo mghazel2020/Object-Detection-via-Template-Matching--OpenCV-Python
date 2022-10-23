@@ -1,27 +1,68 @@
-# Object-Recognition-Template-Matching--OpenCV-Python
+# Object Detection & Recognition using Template Matching in OpenCV-Python
+
+<div class="row">
+  <div class="column">
+    <img src="figures/template-matching--002.webp" width="500">
+  </div>
+</div>
 
 ## 1. Objective
 
-To demonstrate object localization via template matching using OpenCV-Python built-in functionalities.
+The objective of this project is to demonstrate object localization via template matching using OpenCV-Python built-in functionalities. 
 
-## 2. Code
+2. Template Matching
 
-|#                 | File name         |  Description 
-|------------------|-------------------|--------------------|
-|1                 | /code/Object-Recognition-Static-Template-Matching-OpenCV-Python.ipynb      |OpenCV-Python-API implementation of the functionalities for the object recognition from images using static template matching.  |
-|2                 | /code/Object-Recognition-Adaptive-Template-Matching-OpenCV-Python.ipynb      |OpenCV-Python-API implementation of the functionalities for the object recognition from videos using adaptive template matching.  |
+Template matching is a technique for finding areas of an image that are similar to the template of an object of interest, such as a person, vehicle, animal, etc. The goal of template matching is to detect and localize the template image (T) in a source image S:
 
 
-## 3. Template Matching
+* The source Image (S), which is the image where the template may be localized
+* The template Image (T), which is the image that is to be found in the source image.
 
-Most pixel-based object detection techniques are based on matching a known template within the target image. Thus, if a template describing a specific object is available, object detection becomes a process of matching features between the template and the image sequence under analysis. There are two types of object template matching, fixed and deformable template matching. Given that our objects of interest are rigid, we shall focus on fixed template matching.
+
+Template matching is useful when the shape, orientation and scale of the object of interest in the new imaged scene rains almost the same as what is captured in its template image. Most fixed-template matching approach are based on computing a cross-similarity metric between the template and target images and detecting any peaks in the metric values. In particular, template matching apply a sliding window over all the pixels in the source image order to detect the position of cross-similarity metric peak value between a template and template-size patches of target image, at each of its pixels, and locate the best match, if the template image is present in the target image. The absence of such a significant peak indicates that the template image is likely not present in the target image.
 
 
-### 3.1 Fixed Template Matching
 
-Fixed templates are useful when object shapes do not change with respect to the viewing angle of the camera. Most fixed-template matching approach are based on computing the cross-correlation between the template and target images and detecting any peaks in the correlation values. In particular, these techniques apply a sliding window over all the pixels in order to detect the position of cross-similarity metric peak value between a template and a target image and locate the best match, if the template image is present in the target image. The absence of such a peak indicates that the template image is likely not in the target image. 
+2.1 Methodology
 
-More specifically, the objective of template matching is to locate an object, described by a template T[x,y], in the image I[x,y]. 
+
+
+The applied template matching process can be outlined as follows:
+
+* The template image simply slides over the input image (as in 2D convolution) 
+* The template and patch of input image under the template image are compared.
+* The result obtained is compared with the threshold
+* If the result is greater than threshold, the portion will be marked as detected.
+
+2.2 OpenCV Python API
+
+
+The OpenCV Python API for the template matching functionality is as follows:
+
+result=cv.matchTemplate(image, templ, method[, result[, mask]]) 
+
+The Parameters are as follows:
+
+1. Input:
+
+* image: Image where the search is running. 
+* template: Searched template. It must be not greater than the source image and have the same data type.
+* result: Map of comparison results. If image is W×H  and template is w×h then result is (W−w+1)×(H−h+1)
+* method: Parameter specifying the comparison method
+  * The cross-similarity between the template and source image patch can be assessed based in several suitable metrics, which can be grouped as follows:
+    * Mean squared error with or without normalization 
+    * Cross correlation with or without normalization
+  * OpenCV offers the six matching metrics, please see TemplateMatchModes for more information.
+* mask: Optional mask. It must have the same size as template. 
+
+
+2. Output:
+
+* result: Map of comparison results. It must be single-channel 32-bit floating-point. If image is W×H  and template is w×h, then result is (W−w+1)×(H−h+1)
+
+3. Data
+
+The template and source images used to demonstrate the template matching development process are illustrated next.
 
 <div class="row">
   <div class="column">
