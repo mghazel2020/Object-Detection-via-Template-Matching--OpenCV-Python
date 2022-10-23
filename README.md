@@ -102,8 +102,9 @@ We explored the differnt similarity metrics used for template matching:
 
 <table>
   <tr>
-    <td> Template </td>
-    <td> Template Matching Results</td>
+    <td align="center"> </td>
+    <td align="center"> Template </td>
+    <td align="center"> Template Matching Results</td>
   </tr> 
   <tr>
     <td> Window </td>
