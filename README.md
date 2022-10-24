@@ -167,7 +167,7 @@ Template image read successfully!
 Template image converted to grayscale
 </pre>
 
-<img src="figures/messi.jpg" width="1000">
+<img src="figures/messi.jpg" width="100">
 
 
 ### 4.2.2. Read and visualize the input source image
@@ -213,7 +213,7 @@ Reference image read successfully!
 <span style="color:#44aadd; ">-</span> Reference image converted to grayscale
 </pre>
 
-<img src="figures\team.jpg" width="1000">
+<img src="figures/team.jpg" width="1000">
 
 ### 4.3. Step 3: Apply Template Matching
 
@@ -314,11 +314,10 @@ BEST Match<span style="color:#808030; ">:</span> Template <span style="color:#80
 The total number of detected templates <span style="color:#808030; ">=</span> <span style="color:#008c00; ">1</span>
 </pre>
 
-<img src="figuresbarcelona_messi_template_matching_results.JPG" width="1000">
+<img src="figures/barcelona_messi_template_matching_results.JPG" width="1000">
 
 
-
-## 4. Template Matching Detection Applications
+## 5. Exploring the Different Smiliarity Metrics
 
 <div class="row">
   <div class="column">
@@ -346,9 +345,8 @@ enum  	cv::TemplateMatchModes {
  	type of the template matching operation More...
 ```
 
-### 3.1. Exploring the Different Smiliarity Metrics
 
-We explored the differnt similarity metrics used for template matching:
+We explored the different similarity metrics used for template matching:
   * The normalized cross-correlation heat-map between the template and reference images illustrated in the fogure below. 
   *  Note that higher cross-correlation sub-regions (windows) are associated with the correct location of the template image (window) in the reference image. 
 
@@ -357,8 +355,6 @@ We explored the differnt similarity metrics used for template matching:
     <img src="figures/stanford_template_matching_cc.jpg" width="800">
   </div>
 </div>
-
-### 3.2. Sample Results - Nomalized Cross-Correlation
 
 <table>
   <tr>
@@ -370,16 +366,6 @@ We explored the differnt similarity metrics used for template matching:
     <td> Window </td>
     <td> <img src="figures/pillar.jpg" width="50"  > </td>
     <td> <p align="center"><img src="figures/stanford_template_matching_results.JPG" width="500"></p>/td>
-  </tr>
-  <tr>
-    <td> Right Kitten </td>
-    <td> <img src="figures/right_kitten.jpg" width="50"  > </td>
-    <td> <p align="center"><img src="figures/cats_template_matching_results.JPG" width="200"></p></td>
-  </tr>
-  <tr>
-    <td> Messi </td>
-    <td> <img src="figures/messi.jpg" width="50"  > </td>
-    <td> <p align="center"><img src="figures/barcelona_messi_template_matching_results.JPG" width="500"></p></td>
   </tr>
 </table>
 
