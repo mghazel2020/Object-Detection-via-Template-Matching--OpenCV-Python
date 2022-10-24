@@ -114,7 +114,6 @@ CCOEFF_NORMED_THRESHOLD <span style="color:#808030; ">=</span> <span style="colo
 <span style="color:#696969; "># Testinng the numpy version</span>
 <span style="color:#800000; font-weight:bold; ">print</span><span style="color:#808030; ">(</span><span style="color:#0000e6; ">"Numpy : "</span><span style="color:#808030; ">,</span>np<span style="color:#808030; ">.</span>__version__<span style="color:#808030; ">)</span>
 
-
 OpenCV <span style="color:#808030; ">:</span>  <span style="color:#008000; ">3.4</span><span style="color:#808030; ">.</span><span style="color:#008c00; ">8</span>
 Numpy <span style="color:#808030; ">:</span>  <span style="color:#008000; ">1.19</span><span style="color:#808030; ">.</span><span style="color:#008c00; ">2</span>
 </pre>
