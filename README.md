@@ -2,7 +2,7 @@
 
 <div class="row">
   <div class="column">
-    <img src="figures/template-matching--002.webp" width="500">
+    <img src="figures/template-matching--002.webp" width="1000">
   </div>
 </div>
 
@@ -166,7 +166,7 @@ Template image read successfully!
 Template image converted to grayscale
 </pre>
 
-<img src="figures/messi.jpg" width="100">
+<img src="figures/messi.jpg" width="250">
 
 
 ### 4.2.2. Read and visualize the input source image
@@ -320,7 +320,7 @@ The total number of detected templates <span style="color:#808030; ">=</span> <s
 
 <div class="row">
   <div class="column">
-    <img src="figures/stanford_template_matching.jpg" width="500">
+    <img src="figures/stanford_template_matching.jpg" width="1000">
   </div>
 </div>
 
@@ -351,7 +351,7 @@ We explored the different similarity metrics used for template matching:
 
 <div class="row">
   <div class="column">
-    <img src="figures/stanford_template_matching_cc.jpg" width="800">
+    <img src="figures/stanford_template_matching_cc.jpg" width="1000">
   </div>
 </div>
 
@@ -364,7 +364,7 @@ We explored the different similarity metrics used for template matching:
   <tr>
     <td> Window </td>
     <td> <img src="figures/pillar.jpg" width="50"  > </td>
-    <td> <p align="center"><img src="figures/stanford_template_matching_results.JPG" width="500"></p>/td>
+    <td> <p align="center"><img src="figures/stanford_template_matching_results.JPG" width="1000"></p>/td>
   </tr>
 </table>
 
