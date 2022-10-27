@@ -166,7 +166,7 @@ Template image read successfully!
 Template image converted to grayscale
 </pre>
 
-<img src="figures/messi.jpg" width="250">
+<img aligh="center" src="figures/messi.jpg" width="100">
 
 
 ### 4.2.2. Read and visualize the input source image
